@@ -1,4 +1,4 @@
-# A Range Slider type question for LimeSurvey 3.x
+# A Range Slider question for LimeSurvey 3.x
 **A custom question theme that inserts a range slider into a multiple-numeric question, recording the lower and upper values of the range.**
 
 Compatible with LimeSurvey version 3.x.
