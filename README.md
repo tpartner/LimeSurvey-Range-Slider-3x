@@ -7,7 +7,7 @@ Compatible with LimeSurvey version 3.x.
 
 **Implementation:**
 
-1) - **Manual installation (3.x)** - Extract the download and upload the *Range-Slider* folder to */pathToLimeSurvey/upload/themes/question/*. 
+1) **Manual installation (3.x)** - Extract the download and upload the *Range-Slider* folder to */pathToLimeSurvey/upload/themes/question/*. 
 
 2) Create a multiple numeric type question, click Save. 
 
