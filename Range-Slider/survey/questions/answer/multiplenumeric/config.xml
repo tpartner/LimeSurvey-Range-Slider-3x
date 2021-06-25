@@ -4,30 +4,31 @@
 -->
 
 <config>
-	<!-- Those metadata will be displayed in the template configuration page. They are not used for now. -->
+
 	<metadata>
 		<name>Range-Slider</name>
-        <type>question_theme</type>
-        <title>Range Slider</title>
+		<type>question_theme</type>
+		<title>Range Slider</title>
 		<creationDate>13/01/2021</creationDate>
+		<lastUpdate>13/01/2021</lastUpdate>
 		<author>Tony Partner</author>
-		<authorEmail>tpartner@partnersurveys.com</authorEmail>
 		<authorUrl>http://partnersurveys.com</authorUrl>
+		<supportUrl></supportUrl>
 		<license>GNU General Public License version 2 or later</license>
 		<version>1.0</version>
-		<apiVersion>1</apiVersion>
+		<lastSecurityUpdate>1.0</lastSecurityUpdate>
 		<description>A range slider, recording two values.</description>		
-        <questionType>K</questionType>
-        <group>Mask questions</group>
-        <answerscales>0</answerscales>
-        <hasdefaultvalues>0</hasdefaultvalues>
-        <assessable>0</assessable>
-        <class>range-slider</class>
+		<questionType>K</questionType>
+		<group>Mask questions</group>
+		<answerscales>0</answerscales>
+		<hasdefaultvalues>0</hasdefaultvalues>
+		<assessable>0</assessable>
+		<class>range-slider</class>
 	</metadata>
 
-    <compatibility>
-        <version>3.0</version>
-    </compatibility>
+	<compatibility>
+		<version>3.0</version>
+	</compatibility>
 
 	<!--
 		Here the list of the css/js files to load.
@@ -118,7 +119,7 @@
 			<inputtype>text</inputtype>
 			<help>Prefix for the value displayed in the slider tooltips.</help>
 			<caption>Prefix for tooltips</caption>
-            <i18n>1</i18n>
+			<i18n>1</i18n>
 		</attribute>
 		
 		<attribute>
@@ -128,7 +129,7 @@
 			<inputtype>text</inputtype>
 			<help>Suffix for the value displayed in the slider tooltips.</help>
 			<caption>Suffix for tooltips</caption>
-            <i18n>1</i18n>
+			<i18n>1</i18n>
 		</attribute>
 		
 		<attribute>
@@ -152,7 +153,7 @@
 			<inputtype>text</inputtype>
 			<help>Prefix for the min/max values.</help>
 			<caption>Prefix for min/max</caption>
-            <i18n>1</i18n>
+			<i18n>1</i18n>
 		</attribute>
 		
 		<attribute>
@@ -162,7 +163,7 @@
 			<inputtype>text</inputtype>
 			<help>Suffix for the min/max values.</help>
 			<caption>Suffix for min/max</caption>
-            <i18n>1</i18n>
+			<i18n>1</i18n>
 		</attribute>
 		
 		<attribute>
@@ -217,214 +218,214 @@
 		
 		<!-- Hide/disable some core attributes -->
 		<attribute>
-            <name>prefix</name>
-            <category>Display</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-            <i18n>1</i18n>
-        </attribute>
-        <attribute>
-            <name>suffix</name>
-            <category>Display</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-            <i18n>1</i18n>
-        </attribute>
-        <attribute>
-            <name>label_input_columns</name>
-            <category>Display</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>input_size</name>
-            <category>Display</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>text_input_width</name>
-            <category>Display</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-        </attribute>
+			<name>prefix</name>
+			<category>Display</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+			<i18n>1</i18n>
+		</attribute>
 		<attribute>
-            <name>random_order</name>
-            <category>Display</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-        </attribute>
+			<name>suffix</name>
+			<category>Display</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+			<i18n>1</i18n>
+		</attribute>
+		<attribute>
+			<name>label_input_columns</name>
+			<category>Display</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>input_size</name>
+			<category>Display</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>text_input_width</name>
+			<category>Display</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>random_order</name>
+			<category>Display</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+		</attribute>
 		
-        <attribute>
-            <name>max_num_value</name>
-            <category>Input</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>maximum_chars</name>
-            <category>Input</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>min_num_value</name>
-            <category>Input</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>min_num_value_n</name>
-            <category>Input</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>num_value_int_only</name>
-            <category>Input</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>equals_num_value</name>
-            <category>Input</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>value_range_allows_missing</name>
-            <category>Input</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>max_num_value_n</name>
-            <category>Input</category>
-            <sortorder>1110</sortorder>
-            <inputtype></inputtype>
-        </attribute>
+		<attribute>
+			<name>max_num_value</name>
+			<category>Input</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>maximum_chars</name>
+			<category>Input</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>min_num_value</name>
+			<category>Input</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>min_num_value_n</name>
+			<category>Input</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>num_value_int_only</name>
+			<category>Input</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>equals_num_value</name>
+			<category>Input</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>value_range_allows_missing</name>
+			<category>Input</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>max_num_value_n</name>
+			<category>Input</category>
+			<sortorder>1110</sortorder>
+			<inputtype></inputtype>
+		</attribute>
 		
-        <attribute>
-            <name>min_answers</name>
-            <category>Logic</category>
-            <sortorder>1111</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>max_answers</name>
-            <category>Logic</category>
-            <sortorder>1111</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>array_filter_exclude</name>
-            <category>Logic</category>
-            <sortorder>1111</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>array_filter_style</name>
-            <category>Logic</category>
-            <sortorder>1111</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>array_filter</name>
-            <category>Logic</category>
-            <sortorder>1111</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>exclude_all_others</name>
-            <category>Logic</category>
-            <sortorder>1111</sortorder>
-            <inputtype></inputtype>
-        </attribute>
+		<attribute>
+			<name>min_answers</name>
+			<category>Logic</category>
+			<sortorder>1111</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>max_answers</name>
+			<category>Logic</category>
+			<sortorder>1111</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>array_filter_exclude</name>
+			<category>Logic</category>
+			<sortorder>1111</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>array_filter_style</name>
+			<category>Logic</category>
+			<sortorder>1111</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>array_filter</name>
+			<category>Logic</category>
+			<sortorder>1111</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>exclude_all_others</name>
+			<category>Logic</category>
+			<sortorder>1111</sortorder>
+			<inputtype></inputtype>
+		</attribute>
 		
-        <attribute>
-            <name>slider_layout</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>slider_min</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>slider_max</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>slider_accuracy</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>slider_showminmax</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>slider_separator</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>slider_middlestart</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>slider_default</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>slider_default_set</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>slider_reset</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>slider_orientation</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>slider_reversed</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>slider_handle</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
-        <attribute>
-            <name>slider_custom_handle</name>
-            <category>Slider</category>
-            <sortorder>1112</sortorder>
-            <inputtype></inputtype>
-        </attribute>
+		<attribute>
+			<name>slider_layout</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>slider_min</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>slider_max</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>slider_accuracy</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>slider_showminmax</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>slider_separator</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>slider_middlestart</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>slider_default</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>slider_default_set</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>slider_reset</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>slider_orientation</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>slider_reversed</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>slider_handle</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
+		<attribute>
+			<name>slider_custom_handle</name>
+			<category>Slider</category>
+			<sortorder>1112</sortorder>
+			<inputtype></inputtype>
+		</attribute>
 	</custom_attributes>
 
 	<!-- Here datas about how LimeSurvey should load the core js/css of the question -->
@@ -438,9 +439,9 @@
 		<!-- If bootstrap is registered as a css framework, it will be loaded first -->
 		<packages>
 			<!--
-            <add>qTip2</add>
-            <add>bootstrap/plugins/datetimepicker</add>
+			<add>qTip2</add>
+			<add>bootstrap/plugins/datetimepicker</add>
 			-->
 		</packages>
-    </engine>
+	</engine>
 </config>
